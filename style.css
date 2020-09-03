@@ -1,0 +1,42 @@
+
+    /*
+      misc styles, nothing to do with CSS variables
+    */
+
+
+
+    /* creating a css var  */
+    :root {
+      --base: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
+
+    /* cretaing a css varribale */
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+    }
+
+
+
+
+    body {
+        text-align: center;
+        background: #193549;
+        color: white;
+        font-family: 'helvetica neue', sans-serif;
+        font-weight: 100;
+        font-size: 30px;
+        /* display: flex;
+  justify-content: center; */
+      }
+  
+      .controls {
+        margin-bottom: 30px;
+      }
+  
+      input {
+        width: 100px;
+      }
